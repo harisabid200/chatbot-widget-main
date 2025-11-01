@@ -1,0 +1,50 @@
+{
+  "_comment": "AI Chat Widget Configuration File",
+  "_instructions": "Host this file on GitHub Pages, Cloudflare Pages, or any static hosting. Update the embed code to point to this file's URL.",
+  
+  "webhookUrl": "https://your-n8n-instance.com/webhook/chat-widget",
+  "_webhookUrlComment": "Your n8n webhook URL - Get this from your n8n workflow",
+  
+  "allowedDomains": [
+    "example.com",
+    "www.example.com",
+    "subdomain.example.com",
+    "localhost"
+  ],
+  "_allowedDomainsComment": "Only these domains can use the widget. Add localhost for testing. Subdomains must be listed explicitly or use parent domain.",
+  
+  "botName": "AI Assistant",
+  "_botNameComment": "Display name shown in the chat header",
+  
+  "welcomeMessage": "Hi! How can I help you today?",
+  "_welcomeMessageComment": "First message users see when opening the chat",
+  
+  "primaryColor": "#6366f1",
+  "_primaryColorComment": "Main color for chat bubble, header, and user messages. Use hex color codes.",
+  
+  "position": "bottom-right",
+  "_positionComment": "Widget position: 'bottom-right' or 'bottom-left'",
+  
+  "_colorExamples": {
+    "blue": "#3b82f6",
+    "purple": "#6366f1",
+    "green": "#10b981",
+    "red": "#ef4444",
+    "orange": "#f97316",
+    "pink": "#ec4899",
+    "teal": "#14b8a6",
+    "indigo": "#4f46e5"
+  },
+  
+  "_advancedOptions": {
+    "_note": "The following options are for future enhancements. Not currently implemented in v1.0",
+    "theme": "light",
+    "language": "en",
+    "placeholder": "Type your message...",
+    "sendButtonText": "Send",
+    "enableSound": false,
+    "enableTypingIndicator": true,
+    "maxMessageLength": 1000,
+    "avatarUrl": "https://example.com/bot-avatar.png"
+  }
+}
